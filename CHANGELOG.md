@@ -84,6 +84,7 @@ To learn more about active deprecations, we recommend checking [GitHub Discussio
 - **Elasticsearch Scaler**: Add HTTP status check for Elasticsearch errors ([#7480](https://github.com/kedacore/keda/pull/7480))
 - **Github Runner Scaler**: Handle rate limit errors by respecting X-RateLimit-Reset and Retry-After headers and returning cached queue length ([#7683](https://github.com/kedacore/keda/issues/7683))
 - **Kubernetes Workload Scaler**: Add `groupByNode` parameter ([#7628](https://github.com/kedacore/keda/issues/7628))
+- **Metrics API Scaler**: Add custom HTTP client timeout ([#7549](https://github.com/kedacore/keda/issues/7549))
 - **MSSQL Scaler**: Add Azure Workload Identity support for Azure SQL authentication ([#6104](https://github.com/kedacore/keda/issues/6104))
 
 ### Fixes
