@@ -127,6 +127,7 @@ New deprecation(s):
 - **GCP PubSub Scaler**: The 'subscriptionSize' setting is DEPRECATED and is removed in v2.20 - Use 'mode' and 'value' instead ([#7720](https://github.com/kedacore/keda/issues/7720))
 - **Huawei Cloudeye Scaler**: The `minMetricValue` setting is DEPRECATED and is removed - Use `activationTargetMetricValue` instead ([#7436](https://github.com/kedacore/keda/issues/7436))
 - **IBM MQ scaler**: The `tls` setting code is removed ([#6094](https://github.com/kedacore/keda/issues/6094))
+- **InfluxDB scaler**: The 'authToken' setting from triggerMetadata is DEPRECATED and is removed in v2.20 - Use 'authToken' from resolvedEnv or authParams instead ([#7722](https://github.com/kedacore/keda/issues/7722))
 
 ### Other
 
