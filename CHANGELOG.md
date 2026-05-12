@@ -86,6 +86,7 @@ To learn more about active deprecations, we recommend checking [GitHub Discussio
 - **Kubernetes Workload Scaler**: Add `groupByNode` parameter ([#7628](https://github.com/kedacore/keda/issues/7628))
 - **Metrics API Scaler**: Add custom HTTP client timeout ([#7549](https://github.com/kedacore/keda/issues/7549))
 - **MSSQL Scaler**: Add Azure Workload Identity support for Azure SQL authentication ([#6104](https://github.com/kedacore/keda/issues/6104))
+- **Prometheus Scaler**: Emit metric tracking empty responses from Prometheus ([#7062](https://github.com/kedacore/keda/issues/7062))
 
 ### Fixes
 
